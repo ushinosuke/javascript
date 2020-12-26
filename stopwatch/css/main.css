@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  font-family: Osaka;
+}
+
+header {
+  margin-top: 20px;
+}
+
+main {
+  margin-top: 30px;
+}
+
+form {
+  margin-top: 30px;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+p#time {
+  font-size: 48px;
+}
+
+footer > span {
+  font-style: italic;
+}
