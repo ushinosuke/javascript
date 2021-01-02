@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Real-time filter</title>
+    <meta name="description" content="the third assignment">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="./css/main.css">
+    <script type="text/javascript"
+	    src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js""></script>
+  </head>
+  <body>
+    <div>
+      <h1>リアルタイムフィルター</h1>
+      <p class="comment">入力した文字を含まない要素は非表示となります</p>
+      <form>	
+	<input id="searchText" type="text" name="filter" placeholder="検索ワードを入力">
+      </form>
+      <div id="imgList">
+        <div class="targetArea">
+	  <img src="./img/water.jpg" alt="water">
+	  <p>キーワード</p>
+	  <p>水 みず mizu water</p>
+        </div>
+        <div class="targetArea">
+	  <img src="./img/lake.jpg" alt="lake">
+	  <p>キーワード</p>
+	  <p>湖 みずうみ mizuumi lake</p>
+        </div>
+        <div class="targetArea">
+	  <img src="./img/moon.jpg" alt="moon">
+	  <p>キーワード</p>
+	  <p>三日月 みかづき mikazuki moon</p>
+        </div>
+        <div class="targetArea">
+	  <img src="./img/cat.jpg" alt="cat">
+	  <p>キーワード</p>
+	  <p>猫 ねこ neko cat</p>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="./js/main.js"></script>
+  </body>
+</html>
